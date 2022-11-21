@@ -1,0 +1,232 @@
+  
+.footer {
+    color: #fff;
+    width: 100%;
+    /* height: 364px; */
+    background-color: #0e4c9a;
+    flex-basis: 54%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 12px;
+    font-size: .875rem;
+    font-weight: 700;
+    display: flex;
+    direction: rtl;
+    justify-content: center;
+    flex-direction: column;
+}
+.row1 {
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 12px;
+}
+.col-md-3 {
+    width: 25%;
+    flex-direction: column;
+    line-height: 19px;
+    padding: 0 15px;
+    margin: 0 40px;
+}
+
+.row2 {
+    text-align: center;
+}
+
+.menu-list {
+    flex-direction: column;
+    display: flex;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.web-btn {
+    color: #fff;
+    background-color: #0e4c9a;
+    border: none;
+    border-radius: 26px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2px;
+    font-family: "Tajawal-Medium";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    display: flex;
+}
+  
+.frame-12725 {
+    width: 299px;
+    height: 27px;
+    object-fit: cover;
+    margin: 15px 0 40px 0;
+}
+  
+.kkyvsjofrpbtn {
+    margin-top: 8px;
+}
+  
+.frame-8-1 {
+    width: 99px;
+    height: 35px;
+    object-fit: cover;
+}
+  
+.frame-7-2 {
+    width: 64px;
+    height: 36px;
+    object-fit: cover;
+}
+  
+.yfmbmjlmjxmbn {
+    align-self: flex-end;
+    margin-bottom: 47px;
+    margin-left: 48px;
+    font-weight: 500;
+}
+  
+.flex-container-29 {
+    width: 30%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 21px;
+    font-weight: 400;
+    display: flex;
+}
+  
+.num-920008650 {
+    margin-top: 2px;
+}
+  
+.iconex-broken-call {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    margin: 10px 0 15px 10px;
+}
+  
+.vpymmjgdyxiby {
+    align-self: flex-start;
+    margin-top: 4px;
+}
+  
+.social-media {
+    width: 55%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+    align-items: stretch;
+    margin: 24px 0;
+    display: flex;
+    gap: 16px;
+
+}
+  
+.twitter, .linkedin, .youtube, .instagram {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+  
+.flex-container-31 {
+    white-space: nowrap;
+    flex-direction: row;
+    flex-basis: 4%;
+    /* justify-content: space-between; */
+    gap: 45px;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    margin-left: 4px;
+    font-weight: 500;
+    display: flex;
+}
+  
+.ellipse-36 {
+    width: 6px;
+    height: 6px;
+    object-fit: cover;
+    margin-top: 1px;
+}
+  
+.tqsrvrmyjdfyq {
+    align-self: flex-start;
+}
+  
+.ellipse-35 {
+    width: 6px;
+    height: 6px;
+    object-fit: cover;
+    margin-top: 1px;
+    margin-left: 2px;
+}
+  
+.nmocvkgtvzgxm {
+    align-self: flex-end;
+}
+  
+.num-2022 {
+    text-align: right;
+    align-self: flex-end;
+    margin-top: 3px;
+    font-size: .688rem;
+    font-weight: 500;
+    line-height: 13px;
+}
+  
+.ellipse-34 {
+    width: 6px;
+    height: 6px;
+    object-fit: cover;
+    align-self: flex-end;
+    margin-bottom: 49px;
+}
+  
+.flex-container-32 {
+    height: 75%;
+    flex-direction: column;
+    flex-basis: 12%;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 6px;
+    font-weight: 400;
+    display: flex;
+}
+  
+.eupqqyvroiicy {
+    align-self: flex-start;
+    margin-top: 9px;
+    margin-bottom: -1px;
+    font-weight: 500;
+}
+  
+.group-126521 {
+    width: 102px;
+    height: 64px;
+    object-fit: cover;
+    margin: 8px 0;
+}
+  
+.num-4030311316-16011 {
+    align-self: flex-start;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgb(245 245 245 / 83%);
+    height: 2px;
+    width: 90%;
+}
+  
+.flex-container-27 {
+    margin: 15px 0 40px 0;
+    width: 65%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    display: flex;
+}
