@@ -903,18 +903,6 @@ body {
     display: flex;
 }
 
-.num-250-m-sar {
-    margin-right: 41px;
-}
-
-.num-2-b-sar {
-    margin-left: 13px;
-}
-
-.num-800000-1 {
-    margin-left: 28px;
-}
-
 .flex-container-19 {
     text-align: right;
     width: 85%;
@@ -929,20 +917,41 @@ body {
     display: flex;
 }
 
-.lnkeztqlqeigm {
-    margin-right: 10px;
+.statistic-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
 }
 
-.szfuhxhulgpgf {
-    margin-left: 4px;
+.statistic-num {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #0E4C9A;
+    align-self: start;
 }
 
-.kyleiwtmliuer {
-    margin-left: 10px;
+.statistic-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 11px;
+    padding: 25px;
+    align-self: flex-start;
 }
 
-.ixktpzwshmrjm {
-    align-self: flex-end;
+.statistic-title {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #2B2C2C;
 }
 
 .flex-container-20 {
@@ -1203,55 +1212,59 @@ body {
 }
 
 .blue-rectangle {
-    width: 909px;
+    width: 1300px;
     height: 366px;
     background-color: #DEEFFF;
     position: relative;
     margin-top: 120px;
-    left: -210px;
-    border-radius: 0 170px 170px 0
+    left: 0px;
+    border-radius: 0 170px 170px 0;
+    z-index: 10;
+    padding: 0 35px 0 20px;
 }
 
-.layer-2 {
-    width: 134px;
-    height: 44px;
-    object-fit: cover;
-    z-index: 1;
-    margin-right: 19px;
+.store-list {
+    width: 100%;
+    position: relative;
+    left: -55px;
+    z-index: 11;
+    text-align: start;
 }
 
-.cinpxandlqsjf {
-    color: #004295;
-    z-index: 1;
-    margin-right: -210px;
+.download-title {
+    white-space: nowrap;
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
     line-height: 38px;
+    text-align: right;
+    color: #004295;
 }
 
-.layer-3 {
-    width: 147px;
-    height: 44px;
-    object-fit: cover;
-    margin-top: 68px;
-    margin-left: -35px;
-}
-
-.group-12737 {
-    width: 150px;
-    height: 44px;
-    object-fit: cover;
-    margin-top: 68px;
-    margin-left: 95px;
-    margin-right: -1124px;
-}
-
-.rxxnsvhcjlpwu {
-    margin-top: 4px;
-    margin-left: 935px;
-    font-size: 1.25rem;
+.download-description {
+    font-family: 'Tajawal';
+    font-style: normal;
     font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #2B2C2C;
 }
+
+.download-list {
+    flex-direction: row;
+    display: flex;
+    padding: 20px 0;
+}
+
+.download-item {
+    width: 149.62px;
+    height: 43.52px;
+}
+
 .section {
-    width: 80%;
+    width: 90%;
     justify-content: center;
     text-align: -webkit-center;
     margin: 45px 0;
