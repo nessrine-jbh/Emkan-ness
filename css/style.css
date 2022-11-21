@@ -101,6 +101,182 @@ body {
     margin-bottom: -330px;
 }
 
+.section-title {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #004295;
+    margin: 60px 0 40px 0;
+    z-index: 1;
+}
+
+.rotate-blue-rectangle {
+    position: relative;
+    width: 900;
+    height: 460px;
+    left: -650px;
+    background: #DEEFFF;
+    border-radius: 275px;
+    transform: rotate(-15deg);;
+    z-index: 10;
+    top: 73px;
+}
+
+.pioneer-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.pioneer-content {
+    position: relative;
+    top: -460px;
+    margin-bottom: -400px;
+    z-index: 11;
+}
+
+.pioneer-frame-active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    margin: 30px 30px 0 30px;
+    gap: 32px;
+    width: 335px;
+    background: #0E4C9A;
+    box-shadow: 0px 4px 10px rgba(198, 198, 198, 0.25);
+    border-radius: 6px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    align-items: start;
+}
+
+.pioneer-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    margin: 70px 30px 0 30px;
+    gap: 32px;
+    width: 335px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(198, 198, 198, 0.25);
+    border-radius: 6px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    align-items: start;
+}
+
+.pioneer-msg {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: #2B2C2C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.pioneer-msg-active {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frame-6 {
+    position: relative;
+    align-self: end;
+    width: 105px;
+    height: 92px;
+    object-fit: cover;
+    align-self: flex-start;
+    margin-top: 4px;
+}
+
+.pioneer-name {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0px;
+    text-align: right;
+    color: #2B2C2C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.pioneer-name-active {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0px;
+    text-align: right;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.pioneer-per-active {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 0px;
+    text-align: right;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.pioneer-per {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 0px;
+    text-align: right;
+    color: #2B2C2C;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.flex-container-20 {
+    text-align: right;
+    width: 90%;
+    flex-direction: row;
+    flex-basis: 13%;
+    justify-content: space-between;
+    align-self: flex-start;
+    align-items: center;
+    margin-top: 3px;
+    margin-right: 24px;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 22px;
+    display: flex;
+}
+
 .mlqpzcvkhamxg {
     text-align: right;
     color: #0e4c9a;
@@ -954,213 +1130,9 @@ body {
     color: #2B2C2C;
 }
 
-.flex-container-20 {
-    text-align: right;
-    width: 90%;
-    flex-direction: row;
-    flex-basis: 13%;
-    justify-content: space-between;
-    align-self: flex-start;
-    align-items: center;
-    margin-top: 3px;
-    margin-right: 24px;
-    font-size: .875rem;
-    font-weight: 400;
-    line-height: 22px;
-    display: flex;
-}
-
-.flex-container-21 {
-    height: 100%;
-    flex-direction: row;
-    flex-basis: 71%;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-}
-
-.rectangle-1028 {
-    height: 100%;
-    background-color: #deefff;
-    border-radius: 278px;
-    flex-direction: row;
-    flex-basis: 67%;
-    justify-content: flex-start;
-    align-self: flex-end;
-    align-items: center;
-    margin-top: 6px;
-    margin-right: 54px;
-    padding-bottom: 80px;
-    display: flex;
-}
-
-.frame-29 {
-    height: 35%;
-    background-color: #fff;
-    border-radius: 6px;
-    flex-direction: column;
-    flex-basis: 30%;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 40px;
-    padding-top: 7px;
-    padding-bottom: 11px;
-    display: flex;
-}
-
-.xejrahjpjxawo {
-    align-self: flex-start;
-    margin-top: 4px;
-    margin-bottom: 6px;
-}
-
-.xrrazoermgxfr {
-    margin-top: 2px;
-    margin-left: 15px;
-    font-weight: 700;
-}
-
-.hkyxnmnmmeowc {
-    align-self: flex-start;
-    margin-bottom: 8px;
-    font-size: .688rem;
-}
-
-.frame-28 {
-    height: 35%;
-    background-color: #fff;
-    border-radius: 6px;
-    flex-direction: column;
-    flex-basis: 55%;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    margin-bottom: 40px;
-    margin-left: 22px;
-    padding-top: 7px;
-    padding-bottom: 11px;
-    padding-right: 33px;
-    display: flex;
-}
-
-.cdjkgvvcvydik {
-    align-self: center;
-    margin-top: 4px;
-    margin-bottom: 6px;
-    margin-left: 17px;
-}
-
-.vngbqufamyzhu {
-    margin-top: 2px;
-    font-weight: 700;
-}
-
-.tizzrdyrucpsq {
-    margin-bottom: 8px;
-    font-size: .688rem;
-}
-
-.frame-27 {
-    height: 35%;
-    z-index: 1;
-    background-color: #fff;
-    border-radius: 6px;
-    flex-direction: column;
-    flex-basis: 37%;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    margin-right: -230px;
-    padding-top: 7px;
-    padding-bottom: 11px;
-    padding-right: 33px;
-    display: flex;
-}
-
-.lcewblmoxkmbg {
-    align-self: center;
-    margin-top: 4px;
-    margin-bottom: 6px;
-    margin-left: 17px;
-}
-
-.jszwmejehnvtm {
-    margin-top: 2px;
-    font-weight: 700;
-}
-
-.wsizfzhikhrgk {
-    margin-bottom: 8px;
-    font-size: .688rem;
-}
-
-.jtmfzjmnfjzkd {
-    color: #0e4c9a;
-    z-index: 1;
-    align-self: flex-start;
-    margin-right: -173px;
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 38px;
-}
-
-.web-btn-3-instance {
-    height: 10%;
-    flex-basis: 16%;
-    margin-bottom: 87px;
-    margin-left: -43px;
-    margin-right: -854px;
-}
-
-.group-12735 {
-    width: 96px;
-    height: 34px;
-    object-fit: cover;
-    margin-top: 157px;
-    margin-left: 565px;
-}
-
-.frame-26 {
-    color: #fff;
-    height: 55%;
-    background-color: #0e4c9a;
-    border-radius: 6px;
-    flex-direction: column;
-    flex-basis: 26%;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 103px;
-    padding: 8px 33px 14px 32px;
-    font-size: .688rem;
-    display: flex;
-}
-
-.frame-6 {
-    width: 105px;
-    height: 92px;
-    object-fit: cover;
-    align-self: flex-start;
-    margin-top: 4px;
-}
-
-.pxhyzrraclzyw {
-    margin-bottom: 10px;
-    margin-left: 2px;
-    font-size: 16px;
-}
-
-.bjwwoyelutbeh {
-    align-self: flex-end;
-    margin-top: 2px;
-    font-size: .875rem;
-    font-weight: 700;
-}
-
-.truwajnurauuw {
-    align-self: flex-end;
-    margin-bottom: 8px;
-}
 
 .flex-container-22 {
-    width: 75%;
+    width: 60%;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
@@ -1177,9 +1149,9 @@ body {
 }
 .frame {
     width: 210px;
-    height: 234px;
+    height: 248px;
     object-fit: cover;
-    margin: 70px 0 0 120px;
+    margin: 70px 40px 0 120px;
 }
 
 
@@ -1270,23 +1242,12 @@ body {
     margin: 45px 0;
 }
 
-.section-title {
-    font-family: 'Tajawal';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    text-align: right;
-    color: #004295;
-    margin: 30px 0;
-}
-
 .partners-list {
     width: 100%;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 50px 0 60px 0;
+    margin: 20px 0 30px 0;
     display: flex;
 }
 
@@ -1526,5 +1487,4 @@ body {
 .question-list {
     display: flex;
     justify-content: space-around;
-    margin: 30px 0 0 0;
 }
