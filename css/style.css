@@ -65,7 +65,7 @@ body {
 .vector-slide {
     position: relative;
     width: 50vw;
-    height: 70vh;
+    height: 75vh;
     left: -65px;
     top: -55px;
 }
@@ -124,6 +124,9 @@ body {
 /* start financial */
 .financial {
     z-index: 20;
+    position: relative;
+    top: -140px;
+    margin: 0 !important;
 }
 
 .rotate-right-rectangle {
@@ -135,7 +138,7 @@ body {
     border-radius: 275px;
     transform: rotate(-30deg);;
     z-index: 10;
-    top: 73px;
+    top: 0px;
 }
 
 .financial-content {
@@ -235,6 +238,7 @@ body {
 
 .invest {
     z-index: 21;
+    margin: 0 !important;
 }
 .invest-list {
     display: flex;
