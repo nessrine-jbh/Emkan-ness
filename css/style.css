@@ -54,28 +54,35 @@ body {
 
 /* start slider */
 .slider {
-    width: 90%;
+    width: 100% !important;
     justify-content: center;
     text-align: -webkit-center;
     margin: 45px 0;
     display: flex;
     flex-direction: row;
+    margin: 0 0 115px 0 !important;
 }
-
-.vector-slide {
+.text-slider {
     position: relative;
-    width: 50vw;
-    height: 75vh;
-    left: -65px;
-    top: -55px;
-}
-.text-slide {
-    position: relative;
-    width: 50vw;
+    width: 60%;
     gap: 40px;
     text-align: right;
     flex-direction: column;
     display: flex;
+    padding: 15px;
+}
+
+.vector-slider {
+    width: 40%;
+    height: 60vh;
+}
+
+.img-slider {
+    position: absolute;
+    width: 826px;
+    height: 820px;
+    left: 0;
+    top: 0px;
 }
   
 .flex-container {
@@ -123,6 +130,7 @@ body {
 
 /* start financial */
 .financial {
+    width: 100% !important;
     z-index: 20;
     position: relative;
     top: -140px;
@@ -131,17 +139,16 @@ body {
 
 .rotate-right-rectangle {
     position: relative;
-    width: 900px;
-    height: 500px;
-    left: 700px;
+    width: 55%;
+    height: 521px;
     background: #DEEFFF;
-    border-radius: 275px;
-    transform: rotate(-30deg);;
+    border-radius: 100% 0 0 35%;
     z-index: 10;
-    top: 0px;
+    float: right;
 }
 
 .financial-content {
+    width: 90%;
     position: relative;
     top: -380px;
     margin-bottom: -380px;
@@ -295,7 +302,7 @@ body {
 /* start opportunity */
 
 .opportunity {
-    width: 100vw !important;
+    width: 100% !important;
     min-height: 420px;
     background: #DEEFFF;
 }
