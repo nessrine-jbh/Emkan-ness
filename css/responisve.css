@@ -1,0 +1,195 @@
+    /*Big Size Screens*/
+    
+    @media (max-width: 1200px) {
+        .header .list .mainList .link {
+            margin-left: 15px;
+        }
+        .writeChance .owl-carousel .owl-nav button.owl-next {
+            left: 0;
+        }
+        .writeChance .owl-carousel .owl-nav button.owl-prev {
+            right: 0;
+        }
+        .header .box {
+            gap: 15px;
+        }
+        .header .flex-box {
+            gap: 10px;
+        }
+        .shares .prog .numb:not(:last-of-type)::before {
+            width: 360px;
+            top: calc(50% - 19px);
+            right: 87px;
+        }
+        .owl-carousel .owl-nav button.owl-prev {
+            right: 0;
+        }
+        .owl-carousel .owl-nav button.owl-next {
+            left: 0;
+        }
+    }
+    /* small Screens & tablets & Smart phone */
+    
+    @media (max-width: 991px) {
+        .shares .prog .numb:not(:last-of-type)::before {
+            display: none;
+        }
+        .investment.Investor .card,
+        .statistics .card,
+        .investment .card {
+            margin-bottom: 30px;
+        }
+        .investment .card {
+            margin-top: 0;
+        }
+        .investment {
+            padding: 80px 0;
+        }
+    }
+    /* Small Screens */
+    
+    @media (max-width: 992px) {
+        .header .list,
+        .header .login {
+            display: none;
+        }
+        .openMenuMobile {
+            display: block;
+        }
+        .header .flex-box {
+            display: none;
+        }
+        .callUs {
+            right: 0;
+            width: 150px;
+            padding: 0 5px;
+        }
+        .callUs .call {
+            font-size: 13px;
+        }
+        .Evaluation .listMunu,
+        .Evaluation .flexBox {
+            flex-direction: column;
+        }
+        .Evaluation .flexBox .box {
+            position: relative;
+        }
+        .flexBox .NumbTitle strong {
+            position: absolute;
+            left: 30px;
+            top: 32px;
+        }
+        #writeChanceModal .modal-dialog,
+        .modal-content .fristBox {
+            margin: 0 auto;
+            width: 100%;
+        }
+        .modal-content .boxForm {
+            padding: 40px 20px 40px;
+        }
+        .the-slider-control li span#slider-prev .iconSlider {
+            left: 0;
+        }
+        .the-slider-control li span .iconSlider {
+            right: 0;
+        }
+        .slider .slider-details .discTite {
+            font-size: 40px;
+        }
+    }
+    /* Mobile & Tablets */
+    
+    @media (max-width: 768px) {
+        .footer .Social,
+        .footer .imgsCards,
+        .footer .linkFoter {
+            flex-direction: column;
+            align-items: center;
+        }
+        .aboutUs .flexBox {
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+        .aboutUs {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        .financing-structure .mainBox .tabel {
+            overflow: auto;
+        }
+        .Opportunities .listMunu {
+            flex-direction: column;
+            align-items: center;
+        }
+        .Investment_steps .line {
+            display: none;
+        }
+        .Investment_steps .listicon {
+            flex-direction: column;
+            gap: 35px;
+        }
+        .Opportunities .card .flex,
+        .Opportunities .card .flexList {
+            flex-direction: column;
+        }
+        .slider .slider-details .discTite {
+            font-size: 30px;
+            margin-bottom: 100px;
+        }
+    }
+    /* Tablets */
+    
+    @media (max-width:480px) {
+        .shares .flexForm {
+            flex-direction: column;
+        }
+        .shares .flexMnue {
+            flex-direction: column;
+            gap: 20px;
+        }
+        .shares .atintion .titleAtintion {
+            line-height: 35px;
+        }
+        .shares .form .titleShares {
+            line-height: 25px;
+        }
+        .callUs {
+            width: 131px;
+            padding: 0 5px;
+        }
+        .statistics .title {
+            line-height: 26px;
+            margin: 0 auto 53px;
+            font-size: 20px;
+        }
+        .slider .slider-details .discTite {
+            font-size: 27px;
+            margin-bottom: 60px;
+        }
+        .the-slider-control li span .iconSlider {
+            display: none;
+        }
+    }
+    /* Mobile */
+    
+    @media (max-width: 337px) {
+        .shares .pages {
+            flex-direction: column;
+        }
+        .shares .check .agree {
+            font-size: 14px;
+        }
+        .Warning .linkWarning {
+            width: 300px;
+        }
+        .writeChance .write {
+            width: 270px;
+        }
+        .flexBox .NumbTitle {
+            margin-left: 36px;
+        }
+        .modal-content .boxForm .titleModel {
+            font-size: 20px;
+        }
+    }

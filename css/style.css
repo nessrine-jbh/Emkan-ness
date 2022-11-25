@@ -23,6 +23,41 @@ body {
     width: 100%;
 }
 
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #707070;
+    line-height: 57px;
+    font-size: 20px;
+    position: absolute;
+    top: calc(50% - 50px);
+    transition: .3s;
+}
+
+/* .owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+    background-color: #FF9015;
+    border: 1px solid #FF9015;
+} */
+
+.owl-carousel .owl-nav button.owl-next:hover .iconRight svg,
+.owl-carousel .owl-nav button.owl-prev:hover .iconRight svg {
+    stroke: #fff;
+    stroke-width: 2px
+}
+
+/* .owl-carousel .owl-nav button.owl-next {
+    left: -70px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    right: -70px;
+} */
+
+
 .landing-page {
     color: #2b2c2c;
     width: 100%;
@@ -165,6 +200,14 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(147, 147, 147, 0.15);
     border-radius: 6px;
+}
+
+.news {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .xprhvntbizcoo {
@@ -481,6 +524,8 @@ body {
     justify-content: center;
 }
 
+
+
 /* end opportunity */
 
 
@@ -793,14 +838,33 @@ body {
     text-align: -webkit-center;
     margin: 45px 0;
 }
+/* start partners */
 
-.partners-list {
+.partners-items {
     width: 100%;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     margin: 20px 0 30px 0;
     display: flex;
+}
+
+.partners .owl-carousel .owl-nav button.owl-next,
+.partners .owl-carousel .owl-nav button.owl-prev {
+   display: none;
+}
+
+/* .partners .owl-carousel .owl-nav button.owl-next {
+    top: calc(50% - 25px);
+    left: -70px;
+}
+.partners .owl-carousel .owl-nav button.owl-prev {
+    top: calc(50% - 25px);
+    right: -70px;
+} */
+
+.partners .owl-carousel .owl-item img {
+    width: auto !important;
 }
 
 .image-14 {
@@ -855,6 +919,8 @@ body {
     background-size: cover;
     margin-bottom: 3px;
 }
+
+/* end partners */
 
 .web-btn {
     color: #fff;
