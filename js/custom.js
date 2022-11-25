@@ -88,10 +88,10 @@ $(function() {
     });
 
     /****** End Tabs ******/
-    var projects = $('#projects');
+    var opportunity = $('#opportunity');
     var iconRight = '<i class="iconRight"><svg xmlns="http://www.w3.org/2000/svg" width="10.121" height="17.414" viewBox="0 0 10.121 17.414"> <path id="Path_3100" data-name="Path 3100" d="M8716,621l8,8-8,8" transform="translate(-8715.293 -620.293)" fill="none"/> </svg></i > ',
         iconLeft = '<i class="iconRight"><svg xmlns="http://www.w3.org/2000/svg" width="10.121" height="17.414" viewBox="0 0 10.121 17.414"> <path id="Path_3100" data-name="Path 3100" d="M8724,621l-8,8,8,8" transform="translate(-8715.293 -620.646)" fill="none"></svg></i > '
-    projects.owlCarousel({
+    opportunity.owlCarousel({
         loop: true,
         nav: true,
         autoplay: true,
@@ -103,10 +103,10 @@ $(function() {
                 items: 1
             },
             767: {
-                items: 2
+                items: 1
             },
             1000: {
-                items: 3
+                items: 1
             }
 
 

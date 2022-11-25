@@ -49,13 +49,13 @@ body {
     stroke-width: 2px
 }
 
-/* .owl-carousel .owl-nav button.owl-next {
+.owl-carousel .owl-nav button.owl-next {
     left: -70px;
 }
 
 .owl-carousel .owl-nav button.owl-prev {
     right: -70px;
-} */
+}
 
 
 .landing-page {
@@ -366,6 +366,42 @@ body {
     gap: 40px;
 }
 
+.opportunity .owl-carousel .owl-nav button.owl-next {
+    top: calc(50% - 25px);
+    left: 40px;
+    border: 2px solid #0e4c9a8a;
+    background-color: transparent;
+}
+.opportunity .owl-carousel .owl-nav button.owl-prev {
+    top: calc(50% - 25px);
+    right: 40px;
+    border: 2px solid #0e4c9a8a;
+    background-color: transparent;
+}
+
+.opportunity .owl-carousel .owl-nav button.owl-next:hover,
+.opportunity .owl-carousel .owl-nav button.owl-prev:hover {
+    border: 2px solid #0E4C9A;
+}
+
+.owl-carousel .owl-nav button.owl-next .iconRight svg,
+.owl-carousel .owl-nav button.owl-prev .iconRight svg {
+    stroke: #0e4c9a8a;
+    stroke-width: 2px
+}
+
+.owl-carousel .owl-nav button.owl-next:hover .iconRight svg,
+.owl-carousel .owl-nav button.owl-prev:hover .iconRight svg {
+    stroke: #0E4C9A;
+    stroke-width: 2px
+}
+
+
+.opportunity .owl-carousel .owl-item img {
+    width: auto !important;
+    height: auto !important;
+}
+
 .opportunity-item {
     height: 55%;
     flex-direction: column;
@@ -392,7 +428,6 @@ body {
     width: 100%;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-end;
     display: flex;
 }
 
@@ -456,6 +491,7 @@ body {
     font-size: .75rem;
     line-height: 14px;
     display: flex;
+    margin-bottom: 10px;
 }
 
 .ughlidvapuwbr {
@@ -759,6 +795,12 @@ body {
     font-size: 1.125rem;
     font-weight: 500;
     line-height: 22px;
+}
+
+/* start app-download */
+
+.app-download {
+    width: 100% !important;
 }
 
 .flex-container-24 {
