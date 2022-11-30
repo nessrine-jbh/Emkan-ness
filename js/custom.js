@@ -168,6 +168,31 @@ $(function() {
         },
         navText: [iconRight, iconLeft]
     });
+    var paginate_opp = $('#paginate_opp');
+    var iconRight = '<i class="iconRight"><svg xmlns="http://www.w3.org/2000/svg" width="6.121" height="9.414" viewBox="0 0 6.121 9.414"><path id="Path_2961" data-name="Path 2961" d="M1867-2603l4,4-4,4" transform="translate(-1866.293 2603.707)" fill="none" stroke="#0e4c9a8a" stroke-width="2"/> </svg></i > ',
+        iconLeft = '<i class="iconRight"><svg xmlns="http://www.w3.org/2000/svg" width="6.121" height="9.414" viewBox="0 0 6.121 9.414"> <path id="Path_2961" data-name="Path 2961" d="M1871-2603l-4,4,4,4" transform="translate(-1865.586 2603.707)" fill="none" stroke="#0e4c9a8a" stroke-width="2"/> </svg></i > '
+        paginate_opp.owlCarousel({
+        loop: false,
+        nav: true,
+        autoplay: false,
+        rtl: true,
+        margin: 10,
+        dots: false,
+        responsive: {
+            0: {
+                items: 4
+            },
+            767: {
+                items: 5
+            },
+            1000: {
+                items: 6
+            }
+
+
+        },
+        navText: [iconRight, iconLeft]
+    });
 
     /****** Start  countTo ******/
 
