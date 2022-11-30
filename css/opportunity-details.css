@@ -2,10 +2,32 @@
 body {
   overflow-x: hidden;
 }
+
+/*==========================*/
+/*** opportunity-details ***/
+/*==========================*/
+.opportunity-details-page {
+  margin-top: 100px;
+}
+
+.opportunities-details-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 60px;
+}
+
+
+
+/*==========================*/
+/*** opportunities ***/
+/*==========================*/
+
 .opportunities-page {
   margin-top: 100px;
 }
-.oppartunities-header {
+
+.opportunities-header {
   color: #ffffff;
   background: #0e4c9a;
   width: 100%;
@@ -13,7 +35,7 @@ body {
   border-radius: 0 0 30px 30px;
 }
 
-.oppartunities-body {
+.opportunities-body {
   display: flex;
   flex-direction: column;
   gap: 20px;
