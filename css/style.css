@@ -73,6 +73,7 @@ body {
     line-height: 38px;
     display: flex;
     direction: rtl;
+    overflow-x: hidden;
 }
 
 .section-title {
@@ -174,12 +175,16 @@ body {
 
 .rotate-right-rectangle {
     position: relative;
-    width: 55%;
-    height: 521px;
+    width: 900px;
+    height: 500px;
+    left: 535px;
     background: #DEEFFF;
-    border-radius: 100% 0 0 35%;
     z-index: 10;
     float: right;
+    border-radius: 275px;
+    transform: rotate(-30deg);
+    top: -20px;
+    /* border-radius: 100% 0 0 35%; */
 }
 
 .financial-content {
@@ -316,8 +321,8 @@ body {
 }
 
 .invest-image {
-    width: 75px;
-    height: 64px;
+    /* width: 75px;
+    height: 64px; */
     object-fit: cover;
     margin-top: 2px;
 }
@@ -424,7 +429,7 @@ body {
 }
 
 .opportunity-header {
-    align-items: start;
+    /* align-items: start; */
     width: 100%;
     flex-direction: column;
     justify-content: space-between;
@@ -584,29 +589,20 @@ body {
     flex-direction: row;
 }
 
+.pioneer .owl-carousel .owl-nav button.owl-next,
+.pioneer .owl-carousel .owl-nav button.owl-prev {
+   display: none;
+}
+
+.pioneer .owl-carousel .owl-item img {
+    width: auto !important;
+}
+
 .pioneer-content {
     position: relative;
     top: -460px;
     margin-bottom: -580px;
     z-index: 11;
-}
-
-.pioneer-frame-active {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 32px;
-    margin: 30px 30px 0 30px;
-    gap: 32px;
-    width: 335px;
-    background: #0E4C9A;
-    box-shadow: 0px 4px 10px rgba(198, 198, 198, 0.25);
-    border-radius: 6px;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    align-items: start;
 }
 
 .pioneer-frame {
@@ -622,8 +618,13 @@ body {
     box-shadow: 0px 4px 10px rgba(198, 198, 198, 0.25);
     border-radius: 6px;
     flex: none;
-    order: 2;
-    flex-grow: 0;
+    align-items: start;
+}
+
+.pioneer-frame-active {
+    margin: 30px 30px 0 30px;
+    background: #0E4C9A;
+    flex: none;
     align-items: start;
 }
 
@@ -640,7 +641,7 @@ body {
     flex-grow: 0;
 }
 
-.pioneer-msg-active {
+.pioneer-frame-active .pioneer-msg {
     font-family: 'Tajawal';
     font-style: normal;
     font-weight: 400;
@@ -653,7 +654,13 @@ body {
     flex-grow: 0;
 }
 
-.frame-6 {
+
+.pioneer .owl-carousel .pioneer-frame img {
+    display: none;
+}
+
+.pioneer .owl-carousel .pioneer-frame-active img {
+    display: block;
     position: relative;
     align-self: end;
     width: 105px;
@@ -676,7 +683,7 @@ body {
     flex-grow: 0;
 }
 
-.pioneer-name-active {
+.pioneer-frame-active .pioneer-name {
     font-family: 'Tajawal';
     font-style: normal;
     font-weight: 700;
@@ -689,19 +696,6 @@ body {
     flex-grow: 0;
 }
 
-.pioneer-per-active {
-    font-family: 'Tajawal';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 0px;
-    text-align: right;
-    color: #FFFFFF;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
 .pioneer-per {
     font-family: 'Tajawal';
     font-style: normal;
@@ -710,6 +704,19 @@ body {
     line-height: 0px;
     text-align: right;
     color: #2B2C2C;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.pioneer-frame-active .pioneer-per {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 0px;
+    text-align: right;
+    color: #FFFFFF;
     flex: none;
     order: 1;
     flex-grow: 0;

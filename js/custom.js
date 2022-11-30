@@ -74,17 +74,21 @@ $(function() {
 
     /****** Start Tabs ******/
 
-    $(".tabsBtns li").click(function() {
+    $(".tabsFrames .pioneer-frame").click(function() {
 
         var myButton = $(this).attr("id"),
             parent = $(this).parent().attr("id");
 
-        $(this).addClass("active").siblings().removeClass("active");
+        $(this).addClass("pioneer-frame-active").siblings().removeClass("pioneer-frame-active");
 
         $("." + parent + " .tab").hide();
 
         $("." + parent + " ." + myButton).fadeIn();
 
+    });
+
+    $(".tabsFrames .pioneer-frame-active").click(function() {
+        $(this).removeClass("pioneer-frame-active");
     });
 
     /****** End Tabs ******/
@@ -139,13 +143,13 @@ $(function() {
         },
         navText: [iconRight, iconLeft]
     });
-    var projects = $('#writeChance');
+    var pioneer = $('#pioneer');
     var iconRight = '<i class="iconRight"><svg xmlns="http://www.w3.org/2000/svg" width="6.121" height="9.414" viewBox="0 0 6.121 9.414"><path id="Path_2961" data-name="Path 2961" d="M1867-2603l4,4-4,4" transform="translate(-1866.293 2603.707)" fill="none" stroke="#fff" stroke-width="2"/> </svg></i > ',
         iconLeft = '<i class="iconRight"><svg xmlns="http://www.w3.org/2000/svg" width="6.121" height="9.414" viewBox="0 0 6.121 9.414"> <path id="Path_2961" data-name="Path 2961" d="M1871-2603l-4,4,4,4" transform="translate(-1865.586 2603.707)" fill="none" stroke="#fff" stroke-width="2"/> </svg></i > '
-    projects.owlCarousel({
-        loop: true,
+        pioneer.owlCarousel({
+        loop: false,
         nav: true,
-        autoplay: true,
+        autoplay: false,
         rtl: true,
         margin: 5,
         dots: false,
@@ -157,7 +161,7 @@ $(function() {
                 items: 3
             },
             1000: {
-                items: 4
+                items: 3
             }
 
 
