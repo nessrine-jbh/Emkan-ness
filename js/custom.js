@@ -74,21 +74,17 @@ $(function() {
 
     /****** Start Tabs ******/
 
-    $(".tabsFrames .pioneer-frame").click(function() {
+    $(".pioneer-frame").click(function() {
+        var all = $(".pioneer-frame").map(function() {
+            return $(this).removeClass("pioneer-frame-active");
+        }).get();
 
-        var myButton = $(this).attr("id"),
-            parent = $(this).parent().attr("id");
-
-        $(this).addClass("pioneer-frame-active").siblings().removeClass("pioneer-frame-active");
-
-        $("." + parent + " .tab").hide();
-
-        $("." + parent + " ." + myButton).fadeIn();
-
+        $(this).addClass("pioneer-frame-active").siblings();
     });
 
-    $(".tabsFrames .pioneer-frame-active").click(function() {
-        $(this).removeClass("pioneer-frame-active");
+
+    $(".question-item").click(function() {
+        $(this).addClass("question-item-active").siblings().removeClass("question-item-active");
     });
 
     /****** End Tabs ******/
@@ -144,9 +140,7 @@ $(function() {
         navText: [iconRight, iconLeft]
     });
     var pioneer = $('#pioneer');
-    var iconRight = '<i class="iconRight"><svg xmlns="http://www.w3.org/2000/svg" width="6.121" height="9.414" viewBox="0 0 6.121 9.414"><path id="Path_2961" data-name="Path 2961" d="M1867-2603l4,4-4,4" transform="translate(-1866.293 2603.707)" fill="none" stroke="#fff" stroke-width="2"/> </svg></i > ',
-        iconLeft = '<i class="iconRight"><svg xmlns="http://www.w3.org/2000/svg" width="6.121" height="9.414" viewBox="0 0 6.121 9.414"> <path id="Path_2961" data-name="Path 2961" d="M1871-2603l-4,4,4,4" transform="translate(-1865.586 2603.707)" fill="none" stroke="#fff" stroke-width="2"/> </svg></i > '
-        pioneer.owlCarousel({
+    pioneer.owlCarousel({
         loop: false,
         nav: true,
         autoplay: false,
@@ -165,8 +159,7 @@ $(function() {
             }
 
 
-        },
-        navText: [iconRight, iconLeft]
+        }
     });
     var paginate_opp = $('#paginate_opp');
     var iconRight = '<i class="iconRight"><svg xmlns="http://www.w3.org/2000/svg" width="6.121" height="9.414" viewBox="0 0 6.121 9.414"><path id="Path_2961" data-name="Path 2961" d="M1867-2603l4,4-4,4" transform="translate(-1866.293 2603.707)" fill="none" stroke="#0e4c9a8a" stroke-width="2"/> </svg></i > ',

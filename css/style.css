@@ -1008,24 +1008,9 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
-}
-
-.question-item-active {
-    color: #fff;
-    text-align: right;
-    background-color: #0e4c9a;
-    border-radius: 6px;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
-    font-family: "Tajawal";
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 22px;
     display: flex;
-
-    padding: 12px;
-    gap: 24px;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .question-item {
@@ -1042,25 +1027,41 @@ body {
     font-weight: 500;
     line-height: 22px;
     display: flex;
-
     padding: 12px;
     gap: 24px;
 
 }
 
-.question-title-active {
-    font-family: 'Tajawal';
-    font-style: normal;
+.question-item-active {
+    color: #fff;
+    background-color: #0e4c9a;
+    flex-direction: row;
+    justify-content: space-between;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
 }
+
 .question-title {
     font-family: 'Tajawal';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
+}
+
+.question-item-active .question-title {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.question-description {
+    display: none;
+}
+
+.question-item-active .question-description {
+    display: block;
 }
 
 .more-question {
@@ -1077,17 +1078,25 @@ body {
 
 }
   
-.iconex-broken-down-2 {
+.icon-down {
     width: 24px;
     height: 24px;
     object-fit: cover;
+    display: none;
 }
   
-.iconex-broken-down-2-1 {
+.icon-up {
     width: 24px;
     height: 24px;
     object-fit: cover;
     margin-left: 3px;
+}
+
+.question-item-active .icon-down {
+    display: block;
+}
+.question-item-active .icon-up {
+    display: none;
 }
 
 .warnings {
