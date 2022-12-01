@@ -87,6 +87,10 @@ $(function() {
         $(this).addClass("question-item-active").siblings().removeClass("question-item-active");
     });
 
+    $(".list-btns .btn").click(function() {
+        $(this).addClass("btn-active").siblings().removeClass("btn-active");
+    });
+
     /****** End Tabs ******/
     var opportunity = $('#opportunity');
     var iconRight = '<i class="iconRight"><svg xmlns="http://www.w3.org/2000/svg" width="10.121" height="17.414" viewBox="0 0 10.121 17.414"> <path id="Path_3100" data-name="Path 3100" d="M8716,621l8,8-8,8" transform="translate(-8715.293 -620.293)" fill="none"/> </svg></i > ',
