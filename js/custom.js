@@ -84,8 +84,22 @@ $(function() {
 
 
     $(".question-item").click(function() {
-        $(this).addClass("question-item-active").siblings().removeClass("question-item-active");
+        if ($(this).hasClass("question-item-active")) {
+            $(this).removeClass("question-item-active");
+        } else {
+            $(this).addClass("question-item-active").siblings().removeClass("question-item-active");
+        }
     });
+
+
+    $(".opportunity-information-item").click(function() {
+        if ($(this).hasClass("opportunity-information-item-active")) {
+            $(this).removeClass("opportunity-information-item-active");
+        } else {
+            $(this).addClass("opportunity-information-item-active").siblings().removeClass("opportunity-information-item-active");
+        }
+    });
+
 
     $(".list-btns .btn").click(function() {
         $(this).addClass("btn-active").siblings().removeClass("btn-active");

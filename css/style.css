@@ -579,7 +579,7 @@ body {
     left: -535px;
     background: #DEEFFF;
     border-radius: 275px;
-    transform: rotate(-30deg);;
+    transform: rotate(-30deg);
     z-index: 10;
     top: 73px;
 }
@@ -1014,6 +1014,7 @@ body {
 }
 
 .question-item {
+    cursor: pointer;
     color: #2b2c2c;
     text-align: right;
     background-color: #fff;
